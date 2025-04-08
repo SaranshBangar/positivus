@@ -5,6 +5,8 @@ import App from "./App.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <App />
+    <div className="font-['Space_Grotesk','Giest',sans-serif]">
+      <App />
+    </div>
   </StrictMode>
 );

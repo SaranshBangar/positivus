@@ -1,1 +1,50 @@
 @import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap");
+
+@layer base {
+  :root {
+    --color-light: #f3f3f3;
+    --color-dark: #191a23;
+    --color-accent: #b9ff66;
+  }
+}
+
+@layer utilities {
+  .bg-dark {
+    @apply bg-[var(--color-dark)];
+  }
+  .text-dark {
+    @apply text-[var(--color-dark)];
+  }
+  .bg-accent {
+    @apply bg-[var(--color-accent)];
+  }
+  .text-accent {
+    @apply text-[var(--color-accent)];
+  }
+  .bg-light {
+    @apply bg-[var(--color-light)];
+  }
+  .text-light {
+    @apply text-[var(--color-light)];
+  }
+}
+
+@layer base {
+  h1 {
+    @apply text-[43px] md:text-6xl font-medium text-dark;
+  }
+  h2 {
+    @apply text-4xl md:text-[40px] font-medium text-dark;
+  }
+  h3 {
+    @apply text-[26px] md:text-3xl font-medium text-dark;
+  }
+  h4 {
+    @apply text-lg md:text-xl font-medium text-dark;
+  }
+  p {
+    @apply text-base md:text-lg font-normal text-dark;
+  }
+}
