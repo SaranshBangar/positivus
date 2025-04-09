@@ -1,5 +1,3 @@
-import { title } from "process";
-
 const ServiceUI = [
   {
     title1: "Search engine",
