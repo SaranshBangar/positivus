@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <main>
       <section className="hidden md:flex flex-row gap-[108px]">
-        <div className="flex-1 flex flex-col gap-9 justify-center items-start px-[100px]">
+        <div className="flex-1 flex flex-col gap-9 justify-center items-start">
           <h1>Navigating the digital landscape for success</h1>
           <p>
             Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media
@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
       </section>
 
-      <section className="md:hidden flex flex-col gap-[10px] justify-center items-start w-full mx-5">
+      <section className="md:hidden flex flex-col gap-[10px] justify-center items-start w-full">
         <h1>Navigating the digital landscape for success</h1>
         <img src="/speaker.svg" alt="speaker" />
         <p>

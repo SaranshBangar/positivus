@@ -8,7 +8,7 @@ import WorkingProcess from "./components/WorkingProcess";
 
 function App() {
   return (
-    <main>
+    <main className="md:px-[100px] px-5">
       <Header />
       <Hero />
       <Partner />

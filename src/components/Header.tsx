@@ -13,7 +13,7 @@ const HeaderLinks = [
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between md:mt-[60px] md:mb-[70px] md:px-[100px] px-5 pt-[30px] pb-[40px]">
+    <header className="flex items-center justify-between md:mt-[60px] md:mb-[70px] pt-[30px] pb-[40px]">
       <div>
         <LogoWithName />
       </div>

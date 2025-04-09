@@ -65,7 +65,7 @@ const Partner = () => {
   );
 
   return (
-    <div className="w-full py-8 md:mt-[70px] md:mb-[140px] my-[60px]">
+    <div className="w-full md:mt-[70px] md:mb-[140px] my-[60px]">
       {isMobile ? (
         <div className="space-y-6">
           {renderCarousel(firstHalf)}

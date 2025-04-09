@@ -17,7 +17,7 @@ const ServiceUI = [
 
 const Services = () => {
   return (
-    <main className="md:px-[100px] px-5">
+    <main>
       <section className="hidden md:block space-y-[80px]">
         <div className="flex items-center gap-10">
           <h2 className="bg-[var(--color-accent)] rounded-[7px] w-fit px-[7px]">Services</h2>
