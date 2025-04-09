@@ -54,7 +54,7 @@ const Partner = () => {
         {images.map((src, index) => (
           <CarouselItem key={index} className={`${isMobile ? "basis-1/3" : "md:basis-1/3 lg:basis-1/6"}`}>
             <div className="p-2 h-24 flex items-center justify-center">
-              <img src={src} alt={`Partner ${index + 1}`} className="object-contain w-full h-full" />
+              <img src={src} alt={`Partner ${index + 1 > 6 ? index - 5 : index + 1}`} className="object-contain w-full h-full" />
             </div>
           </CarouselItem>
         ))}
@@ -65,7 +65,7 @@ const Partner = () => {
   );
 
   return (
-    <div className="w-full py-8 mt-[70px] mb-[140px]">
+    <div className="w-full py-8 md:mt-[70px] md:mb-[140px] my-[60px]">
       {isMobile ? (
         <div className="space-y-6">
           {renderCarousel(firstHalf)}
