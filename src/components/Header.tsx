@@ -2,14 +2,7 @@ import { Menu } from "lucide-react";
 import LogoWithName from "./helper/LogoWithName";
 
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-
-const HeaderLinks = [
-  { name: "About us", path: "/" },
-  { name: "Services", path: "/" },
-  { name: "Use Cases", path: "/" },
-  { name: "Pricing", path: "/" },
-  { name: "Blog", path: "/" },
-];
+import { Links } from "@/constants/constants";
 
 const Header = () => {
   return (
@@ -20,9 +13,9 @@ const Header = () => {
 
       <div className="hidden items-center gap-10 md:flex">
         <ul className="flex gap-10">
-          {HeaderLinks.map((link) => (
-            <a key={link.name} href={link.path}>
-              <p>{link.name}</p>
+          {Links.map((link) => (
+            <a key={link.title} href={link.link}>
+              <p>{link.title}</p>
             </a>
           ))}
         </ul>
@@ -39,10 +32,10 @@ const Header = () => {
           <SheetContent side="top" className="pt-10 border-b-2 border-accent">
             <nav>
               <ul className="flex flex-col gap-5">
-                {HeaderLinks.map((link) => (
-                  <li key={link.name} className="text-center">
-                    <a href={link.path}>
-                      <p>{link.name}</p>
+                {Links.map((link) => (
+                  <li key={link.title} className="text-center">
+                    <a href={link.link}>
+                      <p>{link.title}</p>
                     </a>
                   </li>
                 ))}

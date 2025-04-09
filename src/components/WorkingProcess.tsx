@@ -33,7 +33,7 @@ export default function WorkingProcess() {
   };
 
   return (
-    <main className="md:mt-[101px] md:mb-[138px] mt-10 mb-[70px] container px-4 md:px-6">
+    <main className="md:mt-[101px] md:mb-[138px] mt-10 mb-[70px] container">
       <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-10 mb-10 md:mb-16">
         <h2 className="bg-accent rounded-[7px] w-fit px-[7px] py-1 text-2xl md:text-3xl">Our Working Process</h2>
         <p className="text-base md:text-lg max-w-[580px] text-center md:text-left">
