@@ -60,7 +60,7 @@ const Testimonials = () => {
 
   return (
     <section className="md:mt-[138px] md:mb-[107px] mt-[70px] mb-10">
-      <div className="container mx-auto px-4">
+      <div className="container">
         <div className="flex flex-col md:flex-row md:items-center gap-4">
           <div className="bg-accent py-2 px-4 rounded-md">
             <h2>Testimonials</h2>
